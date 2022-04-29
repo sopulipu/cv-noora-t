@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #146356;
+  font-family: 'Satisfy', cursive;
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #34BE82;
+  margin: 5%;
+}
+
+h3 {
+  font-family: 'Arsenal', sans-serif;
+  color: #146356;
+}
+
+p {
+  color: #212121;
+  line-height: 2;
+}
+
+.container-fluid {
+  padding: 3% 8%;
+}
+
+.colored-section {
+  background-color: #FFE3E3;
+}
+.white-section {
+  background-color: #ffffff;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #146356;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  color: #34BE82;
+}
+
+/* Title Section */
+.titleSection {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.hydrangea {
+  width: 30%;
+  position: absolute;
+  left: 0.5%;
+}
+
+.yellow-rose {
+  position: absolute;
+  right: 0.5%;
+  width: 30%;
+}
+
+
+
+/* Profile Section */
+#profileSection {
+  margin: auto;
+  width: 25%;
+  padding: 3rem 0;
+}
+
+.profilepicture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+/* Skill Section */
+#skillsSection {
+  text-align: center;
+  padding: 2% 2% 6% 2%;
+}
+
+.skills-col {
+  padding: 3%
+}
+
+.skills-card {
+  margin: 5%;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-img {
+  width: 50%;
+  padding-bottom: 3%;
+}
+
+/* Tech Section */
+.html5-col {
+  padding-left: 10%;
+}
+
+.bootstrap-col {
+  padding-right: 10%;
+}
+
+.dart-col {
+  padding-left: 15%;
+}
+
+.python-col {
+  padding-right: 15%;
+}
+
+
+.dart-icon {
+  width: 8rem;
+}
+
+/* Contact Section */
+
+#contactSection {
+  padding: 0 0 20px;
+}
+.reach-out {
+  margin: 50px auto;
+  width: 40%;
+}
+
+.btn {
+  background: #FFE3E3;
+  background-image: -webkit-linear-gradient(top, #FFE3E3, #f5a9a9);
+  background-image: -moz-linear-gradient(top, #FFE3E3, #f5a9a9);
+  background-image: -ms-linear-gradient(top, #FFE3E3, #f5a9a9);
+  background-image: -o-linear-gradient(top, #FFE3E3, #f5a9a9);
+  background-image: linear-gradient(to bottom, #FFE3E3, #f5a9a9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Arsenal', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fac5c5;
+  background-image: -webkit-linear-gradient(top, #fac5c5, #f59d9d);
+  background-image: -moz-linear-gradient(top, #fac5c5, #f59d9d);
+  background-image: -ms-linear-gradient(top, #fac5c5, #f59d9d);
+  background-image: -o-linear-gradient(top, #fac5c5, #f59d9d);
+  background-image: linear-gradient(to bottom, #fac5c5, #f59d9d);
+  text-decoration: none;
+}
+
+/* Footer */
+
+
+.linkedin-icon{
+  width: 2rem;
+  transition: opacity 0.5s ease-out 20ms;
+}
+
+a > img:hover {
+opacity: 0.6;
+}
+
+.credit {
+  color: #ffffff;
+  font-family: 'Arsenal', sans-serif;
+}
+
+.copyright {
+  color: #34BE82;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* Media Compatibility */
+@media (max-width: 708px) {
+  .hydrangea {
+    width: 20%;
+  }
+
+  .yellow-rose {
+    width: 20%;
+  }
+
+  .slide-1 {
+    width: 33%;
+  }
+
+  .slide-2 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 985px) {
+  .card-body {
+    padding: 3rem;
+  }
+
+  .card-img {
+    width: 40%;
+    padding-bottom: 3%;
+  }
+}
+
+@media (max-width: 1050px) {
+  #profileSection {
+    min-width: 200px;
+  }
+
+  .heading-column {
+    max-width: 275px;
+  }
+}
