@@ -1,7 +1,9 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Montserrat ExtraLight 200', sans-serif; */
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -26,14 +28,19 @@ h3 {
 p {
   color: #212121;
   line-height: 2;
+  margin: 3% 0 3%;
 }
 
 .container-fluid {
   padding: 3% 8%;
 }
 
-.colored-section {
+.pink-section {
   background-color: #FFE3E3;
+}
+
+.color-grid-down {
+  background-image: linear-gradient(#ffffff, #FFE3E3);
 }
 .white-section {
   background-color: #ffffff;
@@ -41,7 +48,7 @@ p {
 
 /* Navigation bar */
 .navbar {
-  padding-bottom: 2rem;
+  padding-bottom: rem;
 }
 
 .nav-item {
@@ -61,7 +68,6 @@ p {
 
 /* Title Section */
 .titleSection {
-  position: relative;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -87,21 +93,25 @@ p {
 /* Profile Section */
 #profileSection {
   margin: auto;
-  width: 25%;
-  padding: 3rem 0;
+  width: 35%;
+  padding-top: 3rem;
 }
 
 .profilepicture {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  margin: 6% 0 5%;
 }
 
+.hello {
+  padding-bottom: 6%;
+}
 
 /* Skill Section */
 #skillsSection {
   text-align: center;
-  padding: 2% 2% 6% 2%;
+  padding: 0% 2% 6% 2%;
 }
 
 .skills-col {
@@ -118,26 +128,20 @@ p {
 
 .card-img {
   width: 50%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
+}
+.tech-text {
+
 }
 
 /* Tech Section */
-.html5-col {
-  padding-left: 10%;
+.pad-left {
+  padding-left: 13%;
 }
 
-.bootstrap-col {
-  padding-right: 10%;
+.pad-right {
+  padding-right: 13%;
 }
-
-.dart-col {
-  padding-left: 15%;
-}
-
-.python-col {
-  padding-right: 15%;
-}
-
 
 .dart-icon {
   width: 8rem;
@@ -184,41 +188,36 @@ p {
 
 
 .linkedin-icon{
-  width: 2rem;
+  margin: 20px;
   transition: opacity 0.5s ease-out 20ms;
+  width: 2rem;
+
 }
 
 a > img:hover {
 opacity: 0.6;
 }
 
+.copyright {
+  color: #34BE82;
+  font-size: 0.85rem;
+  padding-top: 10px;
+}
+
 .credit {
   color: #ffffff;
   font-family: 'Arsenal', sans-serif;
-}
-
-.copyright {
-  color: #34BE82;
-  font-size: 0.75rem;
-  padding: 20px 0;
+  font-size: 0.7rem;
 }
 
 /* Media Compatibility */
-@media (max-width: 708px) {
+@media (max-width: 712px) {
   .hydrangea {
-    width: 20%;
+    width: 28%;
   }
 
   .yellow-rose {
-    width: 20%;
-  }
-
-  .slide-1 {
-    width: 33%;
-  }
-
-  .slide-2 {
-    width: 50%;
+    width: 28%;
   }
 }
 
