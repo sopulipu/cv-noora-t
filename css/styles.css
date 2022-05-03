@@ -141,7 +141,7 @@ p {
 }
 
 .dart-icon {
-  width: 10rem;
+  width: 160px;
 }
 
 /* Contact Section */
@@ -216,7 +216,6 @@ opacity: 0.6;
   .yellow-rose {
     width: 28%;
   }
-}
 
 @media (max-width: 985px) {
   .card-body {
