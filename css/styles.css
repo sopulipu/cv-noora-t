@@ -47,9 +47,6 @@ p {
 }
 
 /* Navigation bar */
-.navbar {
-  padding-bottom: rem;
-}
 
 .nav-item {
   padding: 0 18px;
@@ -111,7 +108,7 @@ p {
 /* Skill Section */
 #skillsSection {
   text-align: center;
-  padding: 0% 2% 6% 2%;
+  padding: 0 2% 6% 2%;
 }
 
 .skills-col {
@@ -144,7 +141,7 @@ p {
 }
 
 .dart-icon {
-  width: 8rem;
+  width: 10rem;
 }
 
 /* Contact Section */
